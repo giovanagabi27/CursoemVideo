@@ -1,2 +1,3 @@
 # CursoemVideo
-Aprendendo com curso em video 
+Python
+Aprendendo com o curso em video 

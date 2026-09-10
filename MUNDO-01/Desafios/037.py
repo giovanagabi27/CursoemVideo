@@ -4,4 +4,18 @@ Base de conversão:
 - 2 para Octal
 - 3 para Hexadecimal'''
 
-from math import bin , oct , hex 
+import math
+
+print('Vamos converter os números')
+print('---' * 10 )
+
+numero = int(input('Digite um número inteiro :'))
+binario = bin(numero)
+octal= oct(numero)
+hexadecimal = hex(numero)
+
+print('---' * 20)
+
+print('Conversão para Binário: {}'.format(binario)) 
+print('Conversão para Octal : {}'.format(octal))
+print('Conversão para Hexadecimal : {}'.format(hexadecimal))
